@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            /*a{
+                text-decoration: none;
+            }
+            li{
+                 list-style-type: none;
+            }*/
+            #d1{
+                font-size: 25px;
+                height: 2px;
+                width: 900px;
+                transform: translate(1000px,-30px);
+            }
+      
+			li{
+				display: inline-block;
+				padding: 45px 25px;
+			}
+			a{
+				text-decoration: none;
+				color: rgb(136, 7, 138);
+			}
+			li:hover{
+                
+				background-color: rgb(172, 135, 168);
+			}
+			.a1{
+				display: none;
+				position: absolute;
+			}
+            .a2{
+				display: none;
+				position: absolute;
+			}
+			ul li:hover ul.d1{
+                height: 350px;
+                width: 175px;
+				display: block;
+				background-color: rgb(139, 237, 144);
+			}
+			.a1 li{
+				display: block;
+			}
+            ul li:hover ul.a1{
+				display: block;
+				background-color: rgb(238, 231, 237);
+			}
+			.a2 li{
+                color: rgb(136, 7, 138);
+				display: block;
+			}
+			ul li:hover ul.a2{
+				display: block;
+				background-color: rgb(238, 231, 237);
+			}
+        body{	
+				margin: 0px;
+				background-size: 100%;				
+				background-image: url(food.jpeg);
+			}
+	
+           /* #d2{
+				margin-left: 520px;
+				margin-top: -70px;	
+			}*/
+			p{
+				text-align: center;
+				margin-top: 250px;
+				font-family: cursive;
+				font-size: 70px;
+				font-weight: 5px;
+				color: rgb(153, 7, 83);
+			}
+			
+			input{
+				padding: 10px;
+				font-size: 30px;
+				color: rgb(217, 217, 226);
+				background-color: rgb(56, 40, 40);
+			}
+          
+    </style>
+</head> 
+<body>
+    <ul id="d1">
+        <li><a href="">menu</a>
+            <ul class="a1">
+                <li><a href="Recipes/Paneer Tikka.html"> Paneer Tikka</a></li>
+				<li><a href="Recipes/Mushroom Kofta.html"> Mushroom-kofta</a></li>
+				<li><a href="Recipes/White Sause Pasta.html"> White-Sause-Pasta</a></li>                
+            </ul>
+        </li>
+        <li><a href="">Contact</a>
+            <ul class="a2">
+                <li>7205238596</li>
+            </ul>
+        </li>
+    </ul>
+    <p>NextGenDev Recipes</p>
+    
+</body>
+</html>
